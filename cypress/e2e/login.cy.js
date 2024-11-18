@@ -13,8 +13,7 @@ describe('Alterar dados de assinantes', () => {
     cy.get('[formcontrolname="newPassword"]').type('202122')
     cy.get('[formcontrolname="confirmPassword"]').type('202122')
     cy.get('.save-button').click()
-    
-    
-
+  
+  
   })
 })
